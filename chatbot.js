@@ -4,7 +4,7 @@ let chatbox = document.getElementById("chatbox")
 
 const chatHistory = [];
 const generateResponse= async (incomingmsgli)=>{
-    const API_KEY ="AIzaSyAkRWg-gVFMSyGZeBlXXtB3l_NkqgdKrQI";
+    const API_KEY ="";
     const API_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key="+API_KEY;
 
     chatHistory.push({
