@@ -1,0 +1,119 @@
+.body{
+    padding:0px;
+    margin:0px;
+}
+
+.col-contain{
+    height:100vh;
+    width:100%;
+    background-color: #E6E6FA;
+    
+}
+.chatbot{
+    border:0.1px solid rgb(213, 213, 213);
+    background-color: rgb(229, 237, 244);
+    height:auto;    
+    margin:20px;
+    padding:0px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(5, 5, 187, 0.4);
+}
+header{
+    background-color: rgb(15, 38, 96);
+    color:rgb(228, 228, 228);
+    width:100%;
+    text-align: center;
+    padding:5px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height:70px;
+    padding-top: 15px;
+}
+h1{
+    font-size: 2.5rem;
+    font-family: Lucida Handwriting;
+    /* font-weight: bold; */
+    /* font-style: italic; */
+}
+.chatbox{
+    display:flex;
+    flex-direction: column;
+    height:400px;
+    overflow-y:auto;
+    padding:20px 10px 70px;
+    scrollbar-width:thin;
+    scrollbar-color:#ccccf5 transparent;
+}
+.chat{
+    display:flex ;
+    margin: 10px 0;
+    max-width: 70%;
+}
+
+.chat p{
+    /* margin:10px; */
+    padding:10px; 
+    font-size: 0.95rem;
+    font-family: sans-serif;
+   
+}
+.incoming-chat{
+    background-color: white;
+    color:black;
+    border:0.1px solid rgb(178, 178, 178);
+    border-radius: 15px 15px 15px 0px;
+    text-align: left;
+    display:inline-block;
+    padding:10px;
+} 
+
+.outgoing-chat{
+    background-color: rgb(15, 38, 96);
+    border-radius: 15px 15px 0px 15px;
+    color:white;
+    text-align:left;
+    justify-content: flex-end;
+    align-self: flex-end;
+    margin:20px 0px;
+    margin-bottom:0px;
+    display:inline-block;
+}
+
+.chat-input{
+    position: absolute;
+    bottom:0;
+    width:100%; 
+    background-color: white;
+    padding:5px ;
+    border-top: 1px solid #ccc;
+    border-radius: 10px;
+
+}
+.text{
+    width:100%;
+    height:50px;
+    background-color: white;
+    color:black;
+    padding:10px;
+    font-size: 1em;
+    font-family: roboto;
+    border-radius: 10px;
+}
+.send{
+    border-radius: 10px;
+    margin-left: 5px;;
+    height:50px;
+    width:20%;
+    background-color: rgb(15, 38, 96);
+    color:white;
+    /* border-radius: 15px; */
+    font-size: 0.9em;
+    font-weight: bold;
+    cursor: pointer;
+}
+.credit{
+    font-style: italic;
+    font-size: 13px;
+    text-decoration: underline;
+    color: rgb(12, 12, 68);
+}
